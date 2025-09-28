@@ -309,7 +309,7 @@ p {
 
 .membership__steps {
   list-style-type: none;
-  padding-left: 0%
+  padding-left: 0%;
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
