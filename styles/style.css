@@ -246,7 +246,8 @@ p {
 }
 
 .person_name_feynman {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  top: -30px;
+  left: 319px;
 }
 
 .person_name_burbidge {
