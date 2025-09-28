@@ -308,12 +308,12 @@ p {
 }
 
 .membership__steps {
+  flex-wrap: wrap;
   list-style-type: none;
   padding-left: 0%;
   margin: 100px 0 0;
   display: flex;
   justify-content: center;
-  /* Agrega estilos */
 }
 
 .step {
@@ -340,21 +340,37 @@ p {
 
 .footer {
   box-sizing: border-box;
+  background-color: #1f1f1f;
+  padding: 60px 80px;
+  color: white;
 }
 
 .footer__columns {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  gap: 80px;
+}
+
+.footer__column {
+  flex: 0 0 auto;
 }
 
 .footer__column_content_hours {
+  margin: 0 0 0 auto;
 }
 
 .footer__column_content_social {
+  flex: 0 0 auto;
 }
 
 .footer__logo {
+  width: 58px;
+  height: 80px;
 }
 
 .footer__column-heading {
+  margin: 0 0 20px;
 }
 
 .footer__list {
@@ -365,15 +381,23 @@ p {
 }
 
 .footer__list-item {
+  margin-bottom: 16px;
+}
+.footer__list-item:last-child {
+  margin-bottom: 0;
 }
 
 .footer__column-link {
   color: white;
   text-decoration: none;
+  padding-right: 10px;
 }
 
 .footer__social-icon {
+  width: 16px;
+  height: 16px;
 }
 
 .footer__copyright {
+  padding-top: 100px;
 }
