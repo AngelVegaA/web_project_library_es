@@ -390,7 +390,9 @@ p {
 .footer__column-link {
   color: white;
   text-decoration: none;
-  padding-right: 10px;
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
 }
 
 .footer__social-icon {
