@@ -261,7 +261,8 @@ p {
 }
 
 .person_name_mitchell {
-  /* Utiliza los valores correctos de las propiedades top/right/bottom/left para posicionar el elemento */
+  bottom: 82px;
+  left: 142px;
 }
 
 .person_name_tarter {
